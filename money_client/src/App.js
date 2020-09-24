@@ -1,13 +1,51 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './start/Header.js'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
+
+// import logo from './logo.svg';
+// import './App.css';
 
 function App() {
+
+
+
+
+
   return (
-    <div className="App">
-      <h3>
-        The Money App For Cool People
-      </h3>
+    <div>
+      
+      <Header />
+
+      <BrowserRouter>
+
+        <Switch>
+
+
+          <Route>
+
+
+
+
+
+
+
+          </Route>
+
+
+
+
+
+
+
+        </Switch>
+      
+      
+      
+      
+      
+      </BrowserRouter>
+      
     </div>
   );
 }
