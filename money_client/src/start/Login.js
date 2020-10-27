@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import Header from './Header.js'
+import { Link } from 'react-router-dom'
+
 
 class Login extends React.Component {
    
@@ -70,7 +73,8 @@ class Login extends React.Component {
 
         return this.state.isLoggedIn ? (<div><Header logged = {this.state.isLoggedIn}/></div>) : (
                  
-                <div style={{ textAlign: 'center', height: '50rem', backgroundImage: `url(${img})`}}>  
+                // <div style={{ textAlign: 'center', height: '50rem', backgroundImage: `url(${img})`}}>  
+                <div style={{ textAlign: 'center', height: '50rem'}}>  
                  
                     
                     <form onSubmit={(e) => this.login(e)} style={{display: 'inline-block', marginTop: '5rem'}} onReset={this.resetForm}>

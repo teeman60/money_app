@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './start/Header.js'
+import Login from './start/Login.js'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 
@@ -22,7 +23,8 @@ function App() {
         <Switch>
 
 
-          <Route>
+          <Route exact path="/"
+          render={(routeProps) => <Login {...routeProps}/>}>
 
 
 
