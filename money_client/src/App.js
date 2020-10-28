@@ -6,7 +6,7 @@ import SignUp from './start/Signup.js';
 
 
 // import logo from './logo.svg';
-// import './App.css';
+// import './App.scss';
 
 function App() {
 
