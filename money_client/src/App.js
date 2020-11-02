@@ -3,6 +3,8 @@ import Header from './start/Header.js'
 import Login from './start/Login.js'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import SignUp from './start/Signup.js';
+import NavBar from './start/NavBar.js';
+// import Welcome from './components/Welcome.js';
 
 
 // import logo from './logo.svg';
@@ -31,6 +33,8 @@ function App() {
           <Route exact path="/signup"
           render={(routeProps) => <SignUp {...routeProps}/>}/>
 
+          {/* <Route exact path="/homepage"
+          render={(routeProps) => <Welcome {...routeProps}/>}/> */}
           
 
 

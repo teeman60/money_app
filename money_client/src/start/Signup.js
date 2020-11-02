@@ -21,7 +21,7 @@ return (
                     <div className="content">
                       <h2>Subscribe</h2>
                       <small>Enter your email so we can send you the latest updates!</small>
-                      <form onsubmit="event.preventDefault()">
+                      <form onSubmit="event.preventDefault()">
                         <div className="field-wrapper">
                           <input type="text" name="email" placeholder="email" />
                           <label>e-mail</label>
@@ -35,7 +35,7 @@ return (
                   <div className="face face-front">
                     <div className="content">
                       <h2>Sign in</h2>
-                      <form onsubmit="event.preventDefault()">
+                      <form onSubmit="event.preventDefault()">
                         <div className="field-wrapper">
                           <input type="text" name="username" placeholder="username" />
                           <label>username</label>
@@ -56,7 +56,7 @@ return (
                     <div className="content">
                       <h2>Forgot your password?</h2>
                       <small>Enter your email so we can send you a reset link for your password</small>
-                      <form onsubmit="event.preventDefault()">
+                      <form onSubmit="event.preventDefault()">
                         <div className="field-wrapper">
                           <input type="text" name="email" placeholder="email" />
                           <label>e-mail</label>
@@ -70,7 +70,7 @@ return (
                   <div className="face face-right">
                     <div className="content">
                       <h2>Sign up</h2>
-                      <form onsubmit="event.preventDefault()">
+                      <form onSubmit="event.preventDefault()">
                         <div className="field-wrapper">
                           <input type="text" name="email" placeholder="email" />
                           <label>e-mail</label>
@@ -93,7 +93,7 @@ return (
                   <div className="face face-left">
                     <div className="content">
                       <h2>Contact us</h2>
-                      <form onsubmit="event.preventDefault()">
+                      <form onSubmit="event.preventDefault()">
                         <div className="field-wrapper">
                           <input type="text" name="name" placeholder="name" />
                           <label>Name</label>
